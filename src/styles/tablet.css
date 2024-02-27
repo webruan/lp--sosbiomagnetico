@@ -1,0 +1,369 @@
+@media (min-width: 767px) and (max-width: 1199px) {
+  h1 {
+    font-size: 53px;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+
+  h3 {
+    font-size: 34px;
+  }
+
+  h4 {
+    font-size: 27px;
+  }
+
+  h5 {
+    font-size: 21px;
+  }
+
+  h6 {
+    font-size: 17px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  nav .menu,
+  header .menu-modal {
+    display: none;
+  }
+
+  nav .row h6 {
+    margin: 0 32px;
+  }
+
+  nav .img {  
+    margin: 0 64px;
+  }
+
+  .container.header > .img {
+    max-width: 253px;
+  }
+
+  .container.header .column.main {
+    max-width: 704px;
+  }
+
+  .container.header .column.main .grid .row:nth-child(4) {
+    margin: 0 0 0 32px;
+  }
+
+  .container.header .column.main .grid i { 
+    font-size: 20px;
+  }
+
+  header .column.cta {
+    height: 275px;
+  
+    margin-top: -164px;
+  }
+
+  header .column.cta .img {
+    width: 100%;
+    height: 275px;
+  }
+
+  header .column.cta .img img {
+    object-fit: cover;
+  }
+
+  /* SECTION 02 - BOOK */
+  .container.book .img:first-child {
+    max-width: 268px;
+    min-width: 268px;
+
+    margin-left: -183px;
+  }
+
+  .container.book .img:last-child {
+    max-width: 191px;
+    min-width: 191px;
+  }
+
+  .container.book .column.main {
+    margin: auto 20px;
+  }
+
+  .container.book .column.main h6,
+  .container.book .column.main > p {
+    width: 523px;
+  }
+
+  /* SECTION 03 - S.O.S */
+  .container.sos .column.main .column.cta .img {
+    width: 161px;
+    height: 36px;
+  }
+
+  .container.sos .column.main .row.main .column.left {
+    width: 252px;
+  }
+
+  .container.sos .column.main .column.cta span {   
+    font-size: 14px;
+  }
+
+  .container.sos .column.main .row.caroussel,
+  .container.sos .column.main .row.slider {
+    gap: 20px;
+  }
+
+  .container.sos .column.main .row.slider .item:not(.active) {
+    right: -144px;
+  }
+
+  .container.sos .column.main .row.slider .item .img {
+    width: 141px;
+    height: 123px;
+  }
+
+  /* SECTION 04 - OBJECTIONS */
+  .container.objections .row.down {
+    padding: 95px 0 0;
+  }
+
+  .container.objections .row.down > .bg {
+    width: 100%;
+    height: 339px;
+  }
+
+  .container.objections .row.down > .bg img {
+    object-fit: cover;
+  }
+
+  .container.objections .column.main .row.upper {
+    gap: 64px;
+  }
+
+  .container.objections .column.main .row.upper > .column {
+    width: 161px;
+  }
+
+  .container.objections .column.main .row.upper > .column .img {
+    width: 161px;
+    height: 161px;
+  }
+
+  .container.objections .column.main .row.upper > .column .img::after {
+    width: 219px;
+
+    margin: 70px 0 0;
+    left: -28px;
+    right: auto;
+  }
+
+  .container.objections .column.main .row.mid h5,
+  .container.objections .column.main .row.mid h6 {
+    width: 193px;
+  }
+
+  .container.objections .column.main .row.mid .img {
+    width: 161px;
+    
+    margin: 0 20px;
+  }
+
+  .container.objections .row.down > .img {
+    max-width: 201px;
+    min-width: 201px;
+  }
+
+  .container.objections .row.down .column {
+    width: 235px;
+  }
+
+  .container.objections .row.down .column .row .img {
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+    max-height: 50px;
+  }
+
+  .container.objections .row.down .column:last-child .row p {
+    text-align: left;
+  }
+  
+  /* SECTION 05 - WHY */
+  .container.why .column.main .column.topics .img {
+    max-width: 342px;
+    min-width: 342px;
+  }
+
+  .container.why .column.main .column.topics .row.upper .item,
+  .container.why .column.main .column.topics .row.down .item {
+    width: 252px;
+  }
+  
+  .container.why .column.main .column.topics .row.mid {
+    margin: -32px auto;
+  }
+
+  .container.why .column.main .column.topics .row.mid .item {
+    width: 181px;
+  }
+
+  /* SECTION 07 - MAGNETS */
+  .container.magnets > .img {
+    height: 422px;
+  }
+
+  .container.magnets .column.main {
+    width: 519px;
+  
+    margin: 0 0 0 calc(100% - 519px - 64px);
+    padding: 44px 0;
+  }
+
+  /* SECTION 08 - OFFER */
+  .container.offer .column.main > p {
+    width: 522px;
+  }
+
+  .container.offer .column.main .column.price {   
+    margin-top: 64px;
+    padding: 32px;
+  }
+
+  .container.offer .column.main .column.price .img {
+    width: 126px;
+  
+    top: -64px;
+  }
+
+  .container.offer .column.main .column.price .row {
+    gap: 16px;
+  }
+
+  .container.offer .column.main .column.price .row .column {
+    width: 93px;
+  }
+
+  /* SECTION 09 - VIDEO */
+  .container.video .column.main .row.main .column.left {
+    width: 228px;
+  }
+
+  .container.video .column.main .row.main .column.left .row .img {
+    width: 161px;
+  }
+
+  .container.video .column.main .row.main .column.right {
+    align-items: center;
+  }
+
+
+  .container.video .column.main .row.main .column.right iframe {
+    width: 280px;
+    height: 178px;
+  }
+
+  /* SECTION 11 - WHO */
+  .container.who .row.main {
+    padding: 64px 0;
+  }
+
+  .container.who .row.main .img {
+    width: 193px;
+
+    margin: 0 0 -247px 0;
+  }
+
+  .container.who .row.main .column.text {
+    width: calc(100% - 333px);
+    height: 461px;
+    
+    margin: 0 0 0 calc((193px - (433px / 2)) / 2);
+  }
+
+  /* SECTION 12 - FEEDBACK */
+  .container.feedback .row.main {
+    height: 356px;
+  }
+
+  .container.feedback .row.main .column.left {
+    width: 342px;
+
+    gap: 16px;
+  }
+
+  .container.feedback .row.main .row.right .column i {    
+    font-size: 20px;
+  }
+
+  .container.feedback .row.main .row.right .column .column.feedbacks .item {
+    padding: 8px 16px;
+  }
+
+  .container.feedback .row.main .row.right .column .column.feedbacks .item p {
+    width: 161px;
+  }
+
+  .container.feedback .row.main .row.right .column .column.feedbacks .item::after {
+    position: absolute;
+    top: calc(100% / 2);
+    left: -10px;
+  
+    border-top: 8px solid transparent;
+    border-top-color: inherit;
+    border-left: 8px solid transparent;
+    border-right: 4px solid transparent;
+  
+    transform: rotate(90deg);
+    content: "";
+  }
+
+  .container.feedback .row.main .row.right .column .column.feedbacks .item .img {
+    width: 32px;
+    height: 32px;
+
+    right: -16px;
+  }
+
+  /* SECTION 12 - WARNING */
+  .container.warning .column {
+    width: 342px;
+  }
+
+  /* SECTION 13 - CONTACTS */
+  .container.contact .row.main .img {
+    max-width: 182px;
+    min-width: 182px;
+
+    left: calc(50% - 400px);
+  }
+
+  .container.contact .row.main .column.main .row.cards {
+    gap: 20px;
+  }
+
+  .container.contact .row.main .column.main .row.cards .column {
+    width: 161px;
+  }
+
+  /* FOOTER */
+  footer .container .row.upper,
+  footer .container .row.down {
+    width: 90%;
+  }
+  footer .container .row.upper .column,
+  footer .container .row.upper .row {
+    width: calc(100% - 252px);
+  }
+
+  footer .container .row.down .column.left {
+    width: 252px;
+  }
+
+  footer .container .row.down .column.right {
+    width: calc(100% - 342px);
+  }
+
+  footer .container .row.down .column.right .img {
+    max-width: 342px;
+    min-width: 342px;
+  }
+}

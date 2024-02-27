@@ -1,0 +1,1 @@
+function startTimer(){let t=1200,e=setInterval((()=>{let n=Math.floor(t/60),o=t%60;document.getElementById("minutes").textContent=n.toString(),document.getElementById("seconds").textContent=o.toString(),t<=0&&(clearInterval(e),window.alert("O tempo está prestes a acabar, você vai mesmo perder essa oportunidades?")),t--}),1e3)}window.addEventListener("load",startTimer);

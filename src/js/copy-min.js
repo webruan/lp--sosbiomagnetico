@@ -1,0 +1,1 @@
+$(document).ready((function(){$("p.copy-it").click((function(){var e=$(this).get(0),t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n),document.execCommand("copy");const o=e.textContent;window.alert(`Texto '${o}' copiado!`)}))}));
